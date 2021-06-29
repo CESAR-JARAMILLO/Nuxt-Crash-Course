@@ -8,9 +8,9 @@
           <p class="snippet">
             {{ product.snippet }}
           </p>
-        <!-- <RentModal
-          :product="product"
-        /> -->
+          <RentModal
+            :product="product"
+          />
         </div>
       </div>
       <div class="whats-included-container">
